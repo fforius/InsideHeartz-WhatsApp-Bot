@@ -1,34 +1,35 @@
 <h1 align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
   <br>
-  <a href="https://github.com/fdciabdul/InsideHeartz-WhatsApp-Bot"><img src="https://booth.pximg.net/b745d4a2-a7a0-4826-96e8-55e09ebe32f1/i/1280359/5074b2e0-6e4e-41b0-973e-be0e44bb82cd_base_resized.jpg"></a>
+  <a href="https://github.com/fdciabdul/InsideHeartz-WhatsApp-Bot"><img src="https://telegra.ph/file/403ab70e865577ceb0383.png" width="150" height=150"></a>
   <br>
   Inside Heartz WhatsApp Bot
   <br>
 </h1>
-
-<h3 align=center>A multipurpose whatsapp bot built with <a href="https://github.com/pedroslopez/whatsapp-web.js">whatsapp-web.js</a></h3>
-
+ <h3 align=center>A multipurpose whatsapp bot built with 💕</h3>
 For English on here : <a href="https://github.com/fdciabdul/InsideHeartz-WhatsApp-Bot/blob/master/README_EN.MD"> English </a>
 <div align=center>
 
+<img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square"/>
 
   <a href="https://github.com/pedroslopez/whatsapp-web.js">
-    <img src="https://img.shields.io/badge/whatsapp--web.js-V.1.7%205-green?style=flat&logo=npm" alt="shield.png">
-
-  <a href="https://github.com/fdciabdul">
-    <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
+    <img src="https://img.shields.io/badge/whatsapp--web.js-V.1.7%205-green?style=flat&logo=npm" alt="shield.png"></a>
+<img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badges/">
+<img src="http://hits.dwyl.com/fdciabdul/InsideHeartz-WhatsApp-Bot.svg"/>
+<a href="https://github.com/fdciabdul">
+    <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green?style=flat-square" alt="shield.png">
   </a>
 
 </div>
 
 <p align="center">
-  <a href="#features">Features</a>
+  <a href="#fitur">Features</a>
   •
-  <a href="#installation">Installation</a>
+  <a href="#install">Installation</a>
   •
-  <a href="#set-up">Set Up</a>
-  •
-  <a href="#colors">Colors</a>
+  <a href="#perintah">Perintah</a>
   •
   <a href="#license">License</a>
   •
@@ -87,24 +88,38 @@ di aplikasi whatsapp
 ### Fitur 
 ketik !menu untuk menampilkan fitur
 
-<img src="https://github.com/fdciabdul/termux-whatsapp-bot/raw/master/Screenshot_2020_0613_032927.jpg"></img>
+| Fitur        | Status | Command | 
+| --------------- |:---------:|:---:|
+| Facebook Download | ✔️| !fb `url` |
+| Instagram Download | ✔️ | !ig `url`|
+| Pinterest Download  | ✔️ | !pin `url`|
+| Youtube Download  | ✔️ | !yt `url`|
+| Youtube MP3  | ✔️ | !ytmp3 `url`|
+| Youtube Play Song|  ✔️| !play `keyword`|
+| Penyegar Timelane 1|  ✔️| !ptl1|
+| Penyegar Timelane 2|  ✔️|  !ptl2 |
+| Penyegar Timelane 2|  ✔️|  !ptl2 |
+| Random Fakta unik |  ✔️|  !fakta |
+| Search Image By Keyword|  ✔️|  !searchimage `keyword` |
+| Random Anime Images|  ✔️|  !randomanime |
+| Wikipedia|  ✔️|  !wiki `keyword` |
+| Chord Gitar|  ✔️|  !chord `keyword` |
 
- Feature  | Status |
-| ------------- | ------------- |
-| Facebook Download | Oke|
-| Tiktok Downlod | Soon |
-| WhatsAnime | Oke |
-| Youtube Mp3|  Oke|
-| Brainly |  Oke|
-| Wiki|  Oke|
-| Text To Voice|  Oke|
-| Youtube MP4|  Oke|
-| NHentai|  Oke|
-| Horoscope menu|  Oke|
 
-dan masih banyak lagi
+## Premium Features ( cuz i spend a lot time of this )
+| Fitur        | Status | Command | 
+| --------------- |:---------:|:---:|
+| Makalah downloader|  ✔️|  !makalah `keyword` |
+| Chatbot AI (Simsimi Based)|  ✔️|  all mesage except groups |
+| Lazada Flash Sale Check |  ✔️|  !lazflash |
+| Tokped Flash Sale Check |  ✔️|  !tokpedflash |
+| Shopee Flash Sale Check |  ✔️|  !shopflash |
+| PPOB ( beli pulsa , voucher , token , etc) based on Tripay , Midtrans |  ✔️|  !beli |
+| Periksa Data (Email , Password ) yang terleak |  ✔️|  !periksadata `email/password` |
 
-### Bot Whatsapp Command 
+ ***dan masih banyak lagi***
+
+### Perintah 
 
 ## Admin Command
 ( Hanya admin )
@@ -121,24 +136,49 @@ dan masih banyak lagi
   - `!yt [URL]`: Download Youtube Mp4
   - `!fb [URL]`: Download Facebook Videos
   - `!tiktok [URL]`: Download Tiktok Videos
-  - `!igv [URL]`: Download Instagram Videos
-  - `!igp [URL]`: Download Instagram Pictures
-  
+  - `!ig [URL]`: Download Instagram Videos
+
 ## Fun Mode Command
+  - `!play nama lagu` : memutar musik dari youtube berdasarkan kata kunci
+  - `!lirik nama lagu` : menampilkan lirik lagu berdasarkan judul
   - `!nama text`: Arti nama
-  - `!sifat [nama] tt mm yy`: Cek sifat mu
   - `!pasangan text & text `: Cek kecocokan pasangan
   - `!tts text`: Convert text to voice
-  - `!sial tt-mm-yy `: Cek hari sial
- - `!lirik artist - tittle `: Cek lirik
+  - `ptl1` : Random gambar gambar cewe cantik
+  - `ptl2` : Random gambar gambar cowo gans 
+  - `randomanime` : Random gambar gambar anime
+  - `!pantun`: Random pantun
+  - `!animehd`:Random HD anime
+  - `!searchimage` : Pencarian gambar
+  - `!chord` : Nyari chord gitar anjay
 
 ## Educational Command
-  - `!brainly`: Convert text to voice
-  - `!wiki`: cari apapun di wiki
+  - `!fakta` : Random fakta
+  - `!brainly`: - 
+  - `!wiki`: Cari apapun di wiki
   - `!tts`: Convert text to voice
 
-### Free Version
 
-Ya ini adalah free version , tak ada support dan 
- gabisa request fitur :D
+
+
+## Contributors ✨
+
+Thanks goes to these wonderful people 
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+<td align="center"><img src="https://avatars0.githubusercontent.com/u/4368928?s=460&u=1ef3a3afeb197b85c054abbb96ed05bf58ab4e9f&v=4" width="100px;" alt=""/><br /><sub><b>pedroslopez</b></sub><br /></td>
+
+<td align="center"><a href="https://fdci.se"><img src="https://avatars0.githubusercontent.com/u/31664438?s=460&u=251f36d7ab0fb4a74b162be7b18f6cdca8a74f8c&v=4" width="100px;" alt=""/><br /><sub><b>fdciabdul</b></sub></a><br /><a href="#content-abdul" title="Content"></a></td>
+    <td align="center"><a href="https://pajaar.my.id"><img src="https://avatars0.githubusercontent.com/u/53967072?v=4" width="100px;" alt=""/><br /><sub><b>pajaR_19</b></sub></a><br /><a href="#content-pajaar" title="Content"></a></td>
+  
+</tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
